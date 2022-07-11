@@ -17,3 +17,7 @@ bot = Client(
 @bot.on_message(filters.command(["start"]))
 async def start(bot, update):
        await update.reply_text("Hi i can download PDFs/NOTEs from Careerwill.\n\n")
+
+        
+        
+        bot.run()
